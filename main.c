@@ -17,7 +17,7 @@ int main(void) {
 	while (str[i] != '\0')
 	{
 			
-		printf("%s\n", str[i]);
+		printf("%c", str[i]);
 		i++;
 	}
 	
