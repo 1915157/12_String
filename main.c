@@ -14,7 +14,7 @@ int main(void){
 	{
 		printf("input a world : ");
 		scanf("%s", input);
-		fprint(fp, "%s\n", input);
+		fprintf(fp, "%s\n", input);
 	}
 	
 	fclose(fp);
